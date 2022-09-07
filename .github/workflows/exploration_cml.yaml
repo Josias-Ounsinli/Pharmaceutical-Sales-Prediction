@@ -24,6 +24,40 @@ jobs:
           echo "#### Distribution of Promo in the train and the test set" >> explore_report.md
           cml publish images/Promo_dist_in_train.png --md >> explore_report.md
           cml publish images/Promo_dist_in_test.png --md >> explore_report.md
+          echo "#### Distribution of Sales on State Holidays" >> explore_report.md
+          cml publish images/'sales_vs_stateholiday.png' --md >> explore_report.md
+          echo "#### Distribution of Sales on School Holidays" >> explore_report.md
+          cml publish images/'sales_vs_schoolholiday.png' --md >> explore_report.md
+          echo "#### Trends of Sales per year" >> explore_report.md
+          cml publish images/'sales_per_year.png' --md >> explore_report.md
+          echo "#### Trends of Sales per year and per stateholiday" >> explore_report.md
+          cml publish images/'sales_per_year_and_stateholiday.png' --md >> explore_report.md
+          echo "#### Trends of Sales per year and per schoolholiday" >> explore_report.md
+          cml publish images/'sales_per_year_and_schoolholiday.png' --md >> explore_report.md
+          echo "#### Autocorrelation of sales in April" >> explore_report.md
+          cml publish images/'autocorrelation_month_4.png' --md >> explore_report.md
+          echo "#### Autocorrelation of sales in December" >> explore_report.md
+          cml publish images/'autocorrelation_month_12.png' --md >> explore_report.md
+          echo "#### Trends of Sales per promo" >> explore_report.md
+          cml publish images/'Promo_and_sales.png' --md >> explore_report.md
+          echo "#### Trends of Sales per promo2" >> explore_report.md
+          cml publish images/'Promo2_and_sales.png' --md >> explore_report.md
+          echo "#### Trends of Customers per promo" >> explore_report.md
+          cml publish images/'Customers_and_Promo.png' --md >> explore_report.md
+          echo "#### Trends of Customers per promo2" >> explore_report.md
+          cml publish images/'Customers_and_Promo2.png' --md >> explore_report.md
+          echo "#### Trends of Sales per store types and promo" >> explore_report.md
+          cml publish images/'sales_per_store_type_and_promo.png' --md >> explore_report.md
+          echo "#### Trends of Customers per store types and promo" >> explore_report.md
+          cml publish images/'Customers_per_store_type_and_Promo.png' --md >> explore_report.md
+          echo "#### Trends of SalesperCustomers per store types and promo" >> explore_report.md
+          cml publish images/'SaleperCustomers_per_store_type_and_Promo.png' --md >> explore_report.md
+          echo "#### Trends of Sales on Weekends" >> explore_report.md
+          cml publish images/'Sales_on_weekends_for_weekstores.png' --md >> explore_report.md
+          echo "#### Store type and assortment" >> explore_report.md
+          cml publish images/'store_type_and_assortment.png' --md >> explore_report.md
+          echo "#### Trends of Sales on assortment type" >> explore_report.md
+          cml publish images/'Sales_trend_on_type_assortment.png' --md >> explore_report.md
           
 
           cml send-comment explore_report.md
