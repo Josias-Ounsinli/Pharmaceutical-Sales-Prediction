@@ -25,7 +25,6 @@ certifi==2020.6.20
 cffi==1.15.1
 chardet==4.0.0
 charset-normalizer==2.1.1
-chrome-gnome-shell==0.0.0
 click==8.0.3
 click-didyoumean==0.3.0
 click-plugins==1.1.1
@@ -242,10 +241,8 @@ ufw==0.36.1
 unattended-upgrades==0.1
 uritemplate==4.1.1
 urllib3==1.26.5
-usb-creator==0.3.7
 validators==0.20.0
 versioneer==0.24
-vine==5.0.0
 voluptuous==0.13.1
 wadllib==1.3.6
 watchdog==2.1.9
