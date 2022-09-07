@@ -6,7 +6,6 @@ altair==4.2.0
 amqp==5.1.1
 antlr4-python3-runtime==4.9.3
 appdirs==1.4.4
-apturl==0.5.2
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 asttokens==2.0.7
