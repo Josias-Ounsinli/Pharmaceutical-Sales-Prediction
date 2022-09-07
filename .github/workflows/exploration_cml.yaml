@@ -1,0 +1,62 @@
+name: data-exploration
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+      - uses: iterative/setup-cml@v1
+      - name: Data exploration
+        run: |
+         pip install Cython
+         pip install -r requirements.txt
+         python scripts/modeling.py
+      - name: write to CML report
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "# Exploration report" >> explore_report.md
+          echo "## Some correlation" >> explore_report.md
+          cat reports/explore.txt >> explore_report.md
+                    
+          echo "## Data Visualization" >> explore_report.md
+          echo "#### Distribution of Promo in the train and the test set" >> explore_report.md
+          cml publish images/'Promo dist in train.png' --md >> explore_report.md
+          cml publish images/'Promo dist in test.png' --md >> explore_report.md
+          echo "#### Distribution of Sales on State Holidays" >> explore_report.md
+          cml publish images/'sales_vs_stateholiday.png' --md >> explore_report.md
+          echo "#### Distribution of Sales on School Holidays" >> explore_report.md
+          cml publish images/'sales_vs_schoolholiday.png' --md >> explore_report.md
+          echo "#### Trends of Sales per year" >> explore_report.md
+          cml publish images/'sales per year.png' --md >> explore_report.md
+          echo "#### Trends of Sales per year and per stateholiday" >> explore_report.md
+          cml publish images/'sales per year and stateholiday.png' --md >> explore_report.md
+          echo "#### Trends of Sales per year and per schoolholiday" >> explore_report.md
+          cml publish images/'sales per year and schoolholiday.png' --md >> explore_report.md
+          echo "#### Autocorrelation of sales in April" >> explore_report.md
+          cml publish images/'autocorrelation month 4.png' --md >> explore_report.md
+          echo "#### Autocorrelation of sales in December" >> explore_report.md
+          cml publish images/'autocorrelation month 12.png' --md >> explore_report.md
+          echo "#### Trends of Sales per promo" >> explore_report.md
+          cml publish images/'Promo and sales.png' --md >> explore_report.md
+          echo "#### Trends of Sales per promo2" >> explore_report.md
+          cml publish images/'Promo2 and sales.png' --md >> explore_report.md
+          echo "#### Trends of Customers per promo" >> explore_report.md
+          cml publish images/'Customers and Promo.png' --md >> explore_report.md
+          echo "#### Trends of Customers per promo2" >> explore_report.md
+          cml publish images/'Customers and Promo2.png' --md >> explore_report.md
+          echo "#### Trends of Sales per store types and promo" >> explore_report.md
+          cml publish images/'sales per store type and promo.png' --md >> explore_report.md
+          echo "#### Trends of Customers per store types and promo" >> explore_report.md
+          cml publish images/'Customers per store type and Promo.png' --md >> explore_report.md
+          echo "#### Trends of SalesperCustomers per store types and promo" >> explore_report.md
+          cml publish images/'SaleperCustomers per store type and Promo.png' --md >> explore_report.md
+          echo "#### Trends of Sales on Weekends" >> explore_report.md
+          cml publish images/'Sales on weekends for weekstores.png' --md >> explore_report.md
+          echo "#### Store type and assortment" >> explore_report.md
+          cml publish images/'store type and assortment.png' --md >> explore_report.md
+          echo "#### Trends of Sales on assortment type" >> explore_report.md
+          cml publish images/'Sales trend on type assortment.png' --md >> explore_report.md
+
+          cml send-comment explore_report.md
