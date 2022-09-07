@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv('./data/train_data.csv', sep=",")
+data = pd.read_csv('data/train_data.csv', sep=",")
 
 data = dataCleaning(data).cleanStateHoliday()
 
