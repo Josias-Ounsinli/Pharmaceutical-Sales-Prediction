@@ -29,3 +29,7 @@ class dataCleaning:
 
         self.df = self.df[(self.df['Open'] == 1) & (self.df['Sales'] != 0)]
         return self.df
+
+    def cleanStateHoliday(self):
+        self.df['StateHoliday'] = self.df['StateHoliday'].replace('0', 0)
+        return self.df
