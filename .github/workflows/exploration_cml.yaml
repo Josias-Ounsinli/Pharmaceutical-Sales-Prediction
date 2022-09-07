@@ -22,8 +22,8 @@ jobs:
                     
           echo "## Data Visualization" >> explore_report.md
           echo "#### Distribution of Promo in the train and the test set" >> explore_report.md
-          cml publish images/Promo dist in train.png --md >> explore_report.md
-          cml publish images/Promo dist in test.png --md >> explore_report.md
+          cml publish images/Promo_dist_in_train.png --md >> explore_report.md
+          cml publish images/Promo_dist_in_test.png --md >> explore_report.md
           
 
           cml send-comment explore_report.md
