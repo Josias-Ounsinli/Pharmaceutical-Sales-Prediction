@@ -1,0 +1,169 @@
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction.git/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction/git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction/git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "GET /Josias-Ounsinli/Pharmaceutical-Sales-Prediction/info/refs?service=git-upload-pack HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (2): github.com:443
+DEBUG:urllib3.connectionpool:https://github.com:443 "POST /Josias-Ounsinli/Pharmaceutical-Sales-Prediction/git-upload-pack HTTP/1.1" 200 None
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=<valid stream>)

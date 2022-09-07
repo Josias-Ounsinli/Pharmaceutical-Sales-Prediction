@@ -35,11 +35,3 @@ def countplot(df: pd.DataFrame, x: str, hue: str, order: list, title: str, ncolo
     plt.figure(figsize=(20,10))
     sns.countplot(x=x, hue=hue, order=order, data=df,
         palette=sns.color_palette("Set2", n_colors=ncolors)).set_title(title)
-
-def plot_scatter(df: pd.DataFrame, x_col: str, y_col: str, title: str, hue: str, style: str) -> None:
-    plt.figure(figsize=(12, 7))
-    sns.scatterplot(data = df, x=x_col, y=y_col, hue=hue, style=style)
-    plt.title(title, size=20)
-    plt.xticks(fontsize=14)
-    plt.yticks( fontsize=14)
-

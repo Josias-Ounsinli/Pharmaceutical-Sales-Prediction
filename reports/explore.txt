@@ -1,0 +1,4 @@
+Correlation coefficient between Sales and Customers: 0.89 
+Correlation coefficient between Sales and CompetitionDistance: -0.02 
+Correlation coefficient between Sales and CompetitionOpenSinceMonth: -0.02 
+Correlation coefficient between Sales and CompetitionOpenSinceMonth: 0.01 

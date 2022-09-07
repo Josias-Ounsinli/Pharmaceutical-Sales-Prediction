@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jds98/10%20Academy/Week-3/Pharmaceutical-Sales-Prediction/mlruns/1/8835edb9b660421ba1f5c178721dfddf/artifacts
+end_time: 1662553596064
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 8835edb9b660421ba1f5c178721dfddf
+run_uuid: 8835edb9b660421ba1f5c178721dfddf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1662553596055
+status: 3
+tags: []
+user_id: jds98
