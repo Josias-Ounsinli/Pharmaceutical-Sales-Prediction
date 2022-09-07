@@ -4,6 +4,8 @@ import logging
 import pandas as pd
 import seaborn as sns
 
+import mlflow
+
 sns.set_style("darkgrid")
 
 import warnings
@@ -25,6 +27,21 @@ import dvc.api
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
+
+
+path = 'data/train_data.csv'
+repo = './'
+version='v1'
+
+# content =dvc.api.read(path=path, repo=repo, rev=version)
+
+data_url = dvc.api.get_url(
+    path=path,
+	repo=repo,
+	rev=version
+	)
+    
+mlflow.set_experiment('mlops-work')
 
 warnings.filterwarnings("ignore")
 
@@ -54,3 +71,13 @@ with open("./reports/explore.txt", "w") as file1:
     file1.write('Correlation coefficient between Sales and CompetitionDistance: %s \n' % round(correlation2['Sales']['CompetitionDistance'], 2))
     file1.write("Correlation coefficient between Sales and CompetitionOpenSinceMonth: %s \n" % round(correlation2['Sales']['CompetitionOpenSinceMonth'], 2))
     file1.write("Correlation coefficient between Sales and CompetitionOpenSinceMonth: %s \n" % round(correlation2['Sales']['CompetitionOpenSinceYear'], 2))
+
+with mlflow.start_run():
+    # Log data params
+    mlflow.log_param("data_url", data_url)
+    mlflow.log_param("data_version", version)
+    mlflow.log_param("data_rows", data.shape[0])
+    mlflow.log_param("data_cols", data.shape[1])
+    
+
+
