@@ -167,3 +167,36 @@ DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/jds98/10 Aca
 DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
 DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
 DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=<valid stream>)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'version'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=None)
+DEBUG:git.cmd:Popen(['git', 'cat-file', '--batch-check'], cwd=/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction, universal_newlines=False, shell=None, istream=<valid stream>)
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:Refreshing access_token
+INFO:oauth2client.client:Failed to retrieve access token: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+INFO:oauth2client.client:access_token is expired. Now: 2022-09-08 08:59:13.266710, token_expiry: 2022-09-08 05:26:57
+INFO:oauth2client.client:Refreshing access_token
+DEBUG:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/drive/v2/files/12ijaJfkNtU9oDifF8P0tg0R_Laj6E8Wc?fields=driveId&supportsAllDrives=true&alt=json
+DEBUG:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/drive/v2/files?q=%2712ijaJfkNtU9oDifF8P0tg0R_Laj6E8Wc%27+in+parents+and+trashed%3Dfalse&maxResults=1000&corpora=default&supportsAllDrives=true&includeItemsFromAllDrives=true&alt=json
+DEBUG:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/drive/v2/files?q=trashed%3Dfalse+and+%28%271IFW11-H8fbix7IBBTftzmVfxM2YEw2qJ%27+in+parents%29+and+title%3D%27a7d71a3bce08f95aa9832d4c88a2eb%27&maxResults=1000&corpora=default&supportsAllDrives=true&includeItemsFromAllDrives=true&alt=json
+DEBUG:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/drive/v2/files/1LrNAiYPiiSTEJKLstEVdkH-cNCUk6BIp?acknowledgeAbuse=false&alt=media
+DEBUG:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/drive/v2/files/12ijaJfkNtU9oDifF8P0tg0R_Laj6E8Wc?fields=driveId&supportsAllDrives=true&alt=json
+DEBUG:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/drive/v2/files?q=%2712ijaJfkNtU9oDifF8P0tg0R_Laj6E8Wc%27+in+parents+and+trashed%3Dfalse&maxResults=1000&corpora=default&supportsAllDrives=true&includeItemsFromAllDrives=true&alt=json
+DEBUG:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/drive/v2/files?q=trashed%3Dfalse+and+%28%271IFW11-H8fbix7IBBTftzmVfxM2YEw2qJ%27+in+parents%29+and+title%3D%27a7d71a3bce08f95aa9832d4c88a2eb%27&maxResults=1000&corpora=default&supportsAllDrives=true&includeItemsFromAllDrives=true&alt=json
+DEBUG:googleapiclient.discovery:URL being requested: GET https://www.googleapis.com/drive/v2/files/1LrNAiYPiiSTEJKLstEVdkH-cNCUk6BIp?acknowledgeAbuse=false&alt=media
