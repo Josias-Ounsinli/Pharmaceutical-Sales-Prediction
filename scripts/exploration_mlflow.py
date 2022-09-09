@@ -23,7 +23,7 @@ import os
 import sys
 # from random import random, randint
 import dvc.api
-# import io
+import io
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
@@ -31,9 +31,9 @@ logger = logging.getLogger(__name__)
 
 path = 'data/train_data.csv'
 repo = './'
-version='v1'
+version='v1.1'
 
-# content =dvc.api.read(path=path, repo=repo, rev=version)
+content =dvc.api.read(path=path, repo=repo, rev=version)
 
 data_url = dvc.api.get_url(
     path=path,
@@ -45,7 +45,8 @@ mlflow.set_experiment('mlops-work')
 
 warnings.filterwarnings("ignore")
 
-data = pd.read_csv('./data/train_data.csv', sep=",")
+data = pd.read_csv(data_url, sep=",")
+# data = pd.read_csv(io.StringIO(content), sep=",")
 
 data = dataCleaning(data).cleanStateHoliday()
 
