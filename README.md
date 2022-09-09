@@ -11,3 +11,5 @@ The data team identified factors such as promotions, competition, school and sta
 
 # Business Objective
 Build and serve an end-to-end product that delivers this prediction to analysts in the finance team.
+
+## **Importante note: Unable to push the Random Forest Model cause of its weight. (See .gitignore)
