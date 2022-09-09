@@ -33,3 +33,7 @@ class dataCleaning:
     def cleanStateHoliday(self):
         self.df['StateHoliday'] = self.df['StateHoliday'].replace('0', 0)
         return self.df
+
+    def cleanStateHoliday2(self):
+        self.df['StateHoliday'] = self.df['StateHoliday'].replace(0, '0')
+        return self.df
