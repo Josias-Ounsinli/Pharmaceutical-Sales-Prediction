@@ -88,3 +88,14 @@ DEBUG:cmdstanpy:running CmdStan, num_threads: None
 DEBUG:cmdstanpy:CmdStan args: ['/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction/env/lib/python3.10/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=25265', 'data', 'file=/tmp/tmpfscf95lu/bmrdsrw5.json', 'init=/tmp/tmpfscf95lu/a38o20z4.json', 'output', 'file=/tmp/tmpfscf95lu/prophet_modelemjb8jmx/prophet_model-20220909142944.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
 INFO:cmdstanpy:Chain [1] start processing
 INFO:cmdstanpy:Chain [1] done processing
+DEBUG:matplotlib.pyplot:Loaded backend module://matplotlib_inline.backend_inline version unknown.
+DEBUG:matplotlib.pyplot:Loaded backend module://matplotlib_inline.backend_inline version unknown.
+DEBUG:matplotlib.pyplot:Loaded backend module://matplotlib_inline.backend_inline version unknown.
+INFO:prophet:Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: /tmp/tmp5b2rhtre/h5jfppdg.json
+DEBUG:cmdstanpy:input tempfile: /tmp/tmp5b2rhtre/toujxhqh.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['/home/jds98/10 Academy/Week-3/Pharmaceutical-Sales-Prediction/env/lib/python3.10/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=29486', 'data', 'file=/tmp/tmp5b2rhtre/h5jfppdg.json', 'init=/tmp/tmp5b2rhtre/toujxhqh.json', 'output', 'file=/tmp/tmp5b2rhtre/prophet_modelq00zl_t_/prophet_model-20220910064410.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
