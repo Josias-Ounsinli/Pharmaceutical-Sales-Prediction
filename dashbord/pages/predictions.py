@@ -41,9 +41,19 @@ def newfeatures(df):
 
     return df
 
+pathrf = '09-09-2022-14-44-50-00-RandomForest.pkl'
+reporf = './'
+versionrf='RF_repo'
+
+data_urlrf = dvc.api.get_url(
+    path=pathrf,
+	repo=reporf,
+	rev=versionrf
+	)
+
 XGBModel = pickle.load(open('09-09-2022-17-58-55-00-XGB.pkl', 'rb'))
 CatBoostModel = pickle.load(open('09-09-2022-18-03-50-00-CatBoost.pkl', 'rb'))
-RandomForest = pickle.load(open('09-09-2022-14-44-50-00-RandomForest.pkl', 'rb'))
+RandomForest = pickle.load(open(data_urlrf, 'rb'))
 
 st.set_page_config(page_title="Sales Predictions", layout="wide")
 
