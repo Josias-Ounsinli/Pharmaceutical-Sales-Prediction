@@ -4,6 +4,13 @@ reports/
 images/
 /model
 prediction_images/
+data/train_dat
+09-09-2022-14-44-50-00-RandomForest.pkl.dvc
+09-09-2022-17-58-55-00-XGB.pkl
+09-09-2022-18-03-50-00-CatBoost.pkl
+dvc-remote/
+/dvc-remote
+
 
 
 
